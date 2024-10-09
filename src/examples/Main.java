@@ -10,6 +10,8 @@ public class Main {
         for (Person person : people) {
             if (person instanceof Student) {
                 System.out.println(person.getFullName());
+            } else {
+                System.out.println(person);
             }
         }
     }

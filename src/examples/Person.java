@@ -1,6 +1,6 @@
 package examples;
 
-public class Person {
+public class Person extends Object {
     private String firstName;
     private String lastName;
 

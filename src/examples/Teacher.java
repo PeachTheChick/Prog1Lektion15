@@ -8,7 +8,13 @@ public class Teacher extends Person {
         this.title = title;
     }
 
+    @Override
     public String getFullName() {
         return title + " " + super.getFullName();
+    }
+
+    @Override
+    public String toString() {
+        return getFullName();
     }
 }
